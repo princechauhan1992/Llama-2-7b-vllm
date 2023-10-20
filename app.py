@@ -10,9 +10,9 @@ class InferlessPythonModel:
         USER: {}
         ASSISTANT: """
         snapshot_download(
-            "meta-llama/Llama-2-7b-chat-hf",
+            "meta-llama/Llama-2-13b-chat-hf",
             local_dir="/model",
-            token="<<your_token>>",
+            token="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",
         )
         self.llm = LLM("/model")
     
